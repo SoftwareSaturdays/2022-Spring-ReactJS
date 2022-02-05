@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+}
+
+.class-example {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.class-two {
+    background-color: grey;
+}
+
+#id-example {
+    text-align: center;
+    background-color: yellowgreen;
+}
