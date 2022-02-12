@@ -28,6 +28,9 @@ class Purdue extends React.Component {
         // If you want to use previous state or prop values to update state,
         // the updates may be asynchronous!
 
+        //* Also, the following code DOES NOT actually work, it's just example code
+        //* So don't uncomment it and expect it to run
+
         // ! Do not do it this way
         // this.setState({year: this.state.year + this.props.someValue});
 
