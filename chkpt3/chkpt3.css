@@ -1,0 +1,18 @@
+/* This is an EXAMPLE of a checkpoint, your implementation and design may be different */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.fizz {
+    color:red;
+}
+
+.buzz {
+    color: blue;
+}
+
+.fizzbuzz {
+    color: purple;
+}
