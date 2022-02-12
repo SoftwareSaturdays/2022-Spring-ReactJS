@@ -1,7 +1,6 @@
 import React from 'react';
 import Software from './component/Software';
 import Saturday from './component/Saturday';
-
 import Purdue from './component/Purdue';
 import Boilermakers from './component/Boilermakers';
 
@@ -14,8 +13,11 @@ function App() {
             <Saturday lessonNumber="4" software="ReactJS"/>
 
             {/* Demo #2 */}
-            <Purdue year="2019"/>
-            <Boilermakers />
+            {/* <Purdue year={2019}/>
+            <Purdue year={2019}/> */}
+
+            {/* Demo #3 */}
+            {/* <Boilermakers /> */}
         </div>
     );
 }
