@@ -6,7 +6,7 @@ function FizzBuzz() {
     num += 1;
     if (num > 100) return;
 
-    // You will see how much easier this is with Vue in the future...
+    // You will see how much easier this is with React in the future...
     let fbTag = document.getElementById("fizzbuzz");
     if (num%3==0 && num%5==0) {
         fbTag.innerHTML += '<span class="fizzbuzz">FizzBuzz</span><br>';
