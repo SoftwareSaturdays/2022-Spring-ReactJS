@@ -1,0 +1,17 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+#name {
+  order: 0;
+}
+
+#hp {
+  order: 1;
+}
+
+img {
+  width: 100%;
+}

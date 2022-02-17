@@ -1,0 +1,50 @@
+#info {
+  padding: 15px;
+}
+
+#move-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#move {
+  order: 0;
+}
+
+#move h3 {
+  margin: 0;
+}
+
+#damage {
+  order: 1;
+}
+
+#damage h3 {
+  margin: 0;
+}
+
+#timestamp {
+  margin: 0 auto;
+  width: fit-content;
+  font-style: italic;
+  padding: 0 0 15px;
+}
+
+#button-container {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+#button-container button {
+  background-color: #ff5100;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  filter: drop-shadow(0 5px 8px hsla(19, 100%, 36%, 0.575)); /* x, y, blur, color */
+
+}
