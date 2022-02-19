@@ -8,19 +8,19 @@ class Demo1 extends React.Component {
 
     componentDidMount() {
         console.log("The component has mounted. This is step " + this.state.step);
-        this.setState({step: this.state.step+1});
+        this.setState((state) => ({step: state.step+1}));
     }
 
     componentDidUpdate() {
         console.log("The component has updated. This is step " + this.state.step);
 
         // NEVER DO THIS - REACT WILL BREAK
-        //this.setState({step: this.state.step+1});
+        //this.setState((state) => ({step: state.step+1}));
     }
 
     componentWillUnmount() {
         console.log("The component will unmount. This is step " + this.state.step);
-        this.setState({step: this.state.step+1});
+        this.setState((state) => ({step: state.step+1}));
     }
 
     render () {
