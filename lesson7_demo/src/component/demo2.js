@@ -1,4 +1,4 @@
-import { database } from 'C:/Users/nisha/Documents/softSat/lesson4S22/lesson7/src/database.js';
+import { database } from '../database.js';
 import { set, update, onValue, remove, ref } from 'firebase/database';
 
 import React from 'react';

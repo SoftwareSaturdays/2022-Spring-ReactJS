@@ -1,5 +1,5 @@
 //import { database } from '@/database.js';
-import { database } from 'C:/Users/nisha/Documents/softSat/lesson4S22/lesson7/src/database.js';
+import { database } from '../database.js';
 import { onValue, ref, off } from 'firebase/database';
 import React from 'react';
 

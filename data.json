@@ -1,0 +1,26 @@
+{
+    "fall2020" : {
+      "final" : "Pokedex App",
+      "location" : "WebEx",
+      "program" : "ReactJS",
+      "school" : "Purdue"
+    },
+    "spring2021" : {
+      "final" : "To-Do App",
+      "location" : "Zoom",
+      "program" : "VueJS",
+      "school" : "Purdue"
+    },
+    "fall2021" : {
+      "final" : "To-Do App",
+      "location" : "HAMP 1144",
+      "program" : "VueJS",
+      "school" : "Purdue"
+    },
+    "spring2022" : {
+      "final" : "Pokedex App",
+      "location" : "HAMP 1252",
+      "program" : "ReactJS",
+      "school" : "Purdue"
+    }
+  }
