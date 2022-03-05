@@ -3,7 +3,7 @@ import { set, update, onValue, remove, ref } from 'firebase/database';
 
 import React from 'react';
 
-class demo2 extends React.Component {
+class Demo2 extends React.Component {
     constructor(props) {
         super(props)
 
@@ -84,7 +84,7 @@ class demo2 extends React.Component {
     render () {
         // Type your code here...
 
-        const someJSX = (  
+        const someJSX = (
             <div>
                 <h1>Software Saturdays</h1>
                 <h2>Lesson 7, Demo 2</h2>
@@ -101,4 +101,4 @@ class demo2 extends React.Component {
     }
 }
 
-export default demo2;
+export default Demo2;

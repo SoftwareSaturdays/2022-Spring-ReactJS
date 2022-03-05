@@ -1,17 +1,16 @@
 import React from 'react';
-import demo2 from './component/demo2.js';
-//import demo2 from '@/components/demo2.js'
-//import demo3 from './component/demo3';
+import Demo2 from './component/Demo2.js';
+import Demo3 from './component/Demo3.js';
 
 function App() {
     return (
         // Type your website layout here...
         <div id="demos">
             {/* Demo #2 */}
-            <demo2 />
+            <Demo2 />
 
             {/* Demo #3 */}
-             {/*<demo3 /> */} 
+             {/* <Demo3 /> */}
         </div>
     );
 }

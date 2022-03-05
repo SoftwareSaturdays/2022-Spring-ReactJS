@@ -3,15 +3,9 @@ import { database } from '../database.js';
 import { onValue, ref, off } from 'firebase/database';
 import React from 'react';
 
-class demo3 extends React.Component {
+class Demo3 extends React.Component {
     constructor(props) {
         super(props)
-
-        this.createData = this.createData.bind(this);
-        this.readData = this.readData.bind(this);
-        this.updateData = this.updateData.bind(this);
-        this.deleteData = this.deleteData.bind(this);
-
     }
 
     componentDidMount() {
@@ -42,7 +36,7 @@ class demo3 extends React.Component {
     render () {
         // Type your code here...
 
-        const someJSX = (  
+        const someJSX = (
         <div>
             <h1>Software Saturdays</h1>
             <h2>Lesson 7, Demo 3</h2>
@@ -55,4 +49,4 @@ class demo3 extends React.Component {
     }
 }
 
-export default demo3;
+export default Demo3;
