@@ -6,13 +6,7 @@ import { getDatabase } from 'firebase/database';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAvWv7uETAAQJljfKTuvgp7uT_yNO1cqvA",
-  authDomain: "softwaresaturdayss2022.firebaseapp.com",
-  databaseURL: "https://softwaresaturdayss2022-default-rtdb.firebaseio.com",
-  projectId: "softwaresaturdayss2022",
-  storageBucket: "softwaresaturdayss2022.appspot.com",
-  messagingSenderId: "1035866140647",
-  appId: "1:1035866140647:web:931349e236c639e5da5742"
+  // paste it here...
 };
 
 // Initialize Firebase
